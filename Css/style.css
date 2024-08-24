@@ -52,8 +52,9 @@ body{
     width: 50%;
     border-radius: 0 20px 20px 0;
 }
-.form-box h2{
+.form-box h2,h1,h3,h4{
     font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 .form-box p{
     font-weight: bold;
@@ -61,8 +62,8 @@ body{
 }
 /*contorno box */
 .form-box p a{
-    color: royalblue    ;
-    text-decoration: none;
+    color:black    ;
+    text-decoration:underline
 }
 .form-box form{
     margin: 20px 0;
@@ -80,7 +81,7 @@ form .input-group label{
 form .input-group input{
     width: 100%;
     height: 47px;
-    background-color: whitesmoke;
+    background-color: rgba(255, 255, 255, 0.4);
     border-radius: 10px;
     outline: none;
     border: 2px solid transparent;
@@ -111,9 +112,11 @@ form .input-group button{
         display: none;
     }
     .box{
+        
         width: 700px;
     }
     .form-box{
+        
         width: 100%;
         border-radius: 15px;
     }
