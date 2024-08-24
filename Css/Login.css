@@ -7,7 +7,7 @@
 
 }
 body{
-  background-image: url(../img/OIP.jpg);
+  background-image: url(../img/OIP\ \(2\).jpeg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -43,9 +43,9 @@ body{
   align-items: center;
   padding: 20px;
   border-radius: 20px  0 0 20px;
-  background-color: whitesmoke;
+  background-color:whitesmoke;
 }
-.img-box imga{
+.img-box img{
   width: 100%;
 }
 .form-box{/* cor form direita*/
@@ -54,7 +54,7 @@ body{
   padding: 30px 40px;
   width: 50%;
   border-radius: 0 20px 20px 0;
-background-color: grey;
+background-color: rgb(153, 204, 255);
 }
 .form-box h2{
   font-size: 30px;
@@ -64,7 +64,7 @@ background-color: grey;
   color: #3D3D3D;
 }
 .form-box p a{
-  color: #87CEFA;
+  color: #87CEEB;
   text-decoration: none;
 }
 .form-box form{
@@ -83,7 +83,7 @@ form .input-group label{
 form .input-group input{
   width: 100%;
   height: 47px;
-  background-color: rgba(255, 255, 255, 0.32);
+  background-color:white;
   border-radius: 20px;
   outline: none;
   border: 2px solid transparent;
@@ -93,7 +93,7 @@ form .input-group input{
   transition: all 0.4s ease;
 }
 form .input-group input:focus{
-  border-color: #87CEFA/*Contorno De Label*/;
+  border-color: blue/*Contorno De Label*/;
 }
 
 form .input-group button{
@@ -138,14 +138,14 @@ content: "";
 position: absolute;
 width: 0;
 height: 2px;
-background-color: #87CEFA;
+background-color: royalblue;
 bottom: 0;
 left: 0;
 transition: width 0.3s ease;
 }
 
 .login-link:hover {
-color: #87CEFA;
+color: royalblue;
 }
 
 .login-link:hover::after {

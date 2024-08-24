@@ -5,7 +5,7 @@
     font-family: 'Poppins', sans-serif;
 }
 body{
-    background-image: url(../img/th\ \(1\).jpg);/*image fundo (opcional) troca de background-image para background-color ;*/
+    background-image: url(../img/th\ \(7\).jpeg);/*image fundo (opcional) troca de background-image para background-color ;*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -61,7 +61,7 @@ body{
 }
 /*contorno box */
 .form-box p a{
-    color: #87CEFA;
+    color: royalblue    ;
     text-decoration: none;
 }
 .form-box form{
@@ -80,8 +80,8 @@ form .input-group label{
 form .input-group input{
     width: 100%;
     height: 47px;
-    background-color: rgba(255, 255, 255, 0.32);
-    border-radius: 20px;
+    background-color: whitesmoke;
+    border-radius: 10px;
     outline: none;
     border: 2px solid transparent;
     padding: 15px;
@@ -97,9 +97,9 @@ form .input-group button{
     width: 100%;
     height: 47px;
     background: blue;
-    border-radius: 20px;
+    border-radius: 10px;
     outline: none;
-    border: none;
+    border:2px solid transparent;
     margin-top: 15px;
     color: white;
     cursor: pointer;
@@ -115,7 +115,7 @@ form .input-group button{
     }
     .form-box{
         width: 100%;
-        border-radius: 20px;
+        border-radius: 15px;
     }
 }
 @media (max-width:500px) {
